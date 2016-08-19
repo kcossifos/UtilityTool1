@@ -1,5 +1,5 @@
 # Utility Tool
-is a debugging tool to help you with your code.
+Utility Tool is a debugging tool to help you with your code.
 
 ## Getting Started
 ```
@@ -34,9 +34,7 @@ NODE_ENV=true npm start
 To debug a certain section in your code you have to require
 the util tool in the file and use `util.debug('Log Message', status_code)`
 
-#Examples
-
-##Debug
+#Debug Example
 ```
 util.debug({ methods: '"Hello without status"' }, 30);
 
