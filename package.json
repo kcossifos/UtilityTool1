@@ -1,13 +1,9 @@
 {
-  "name": "utilitytool1",
-  "version": "1.6.0",
+  "name": "kelTool2",
+  "version": "1.1.2",
   "description": "kelTool2",
   "main": "index.js",
   "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "start": "node src/server.js",
     "test": "test"
   },
   "repository": {
