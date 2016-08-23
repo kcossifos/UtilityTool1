@@ -6,6 +6,10 @@
   "scripts": {
    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+  "node": "6.4.0",
+  "npm": "3.10.3"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kcossifos/UtilityTool1.git"
