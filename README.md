@@ -1,6 +1,6 @@
-# Utility Tool
+# kelTool2
 
-Utility Tool is a debugging tool to help you with your code.
+kelTool2 is a debugging Utility tool to help you with your code.
 
 ## Getting Started
 
@@ -17,20 +17,16 @@ If you do not have the latest update run the command brew update
 Now clone this repository to get started by typing
 
 ```
-git clone https://github.com/kcossifos/AppStore2.git
+git clone https://github.com/kcossifos/UtilityTool1
 ```
 
-## Dependencies
+## Install npm package
 
-### Install all packages
-
-```
-npm install
-```
-
-### Install mocha globally
+in command line run
 
 ```
+npm install keltool2
+
 npm install -g mocha
 ```
 ## Usage
@@ -52,7 +48,11 @@ NODE_ENV=true npm start
 ### Using Debug
 
 To debug a certain section in your code you have to require
-the util tool in the file and use `util.debug('Log Message', status_code)`
+the util tool in the file and use
+
+```
+util.debug('Log Message', status_code)
+```
 
 ### Debug Example
 
