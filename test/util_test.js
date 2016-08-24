@@ -19,7 +19,6 @@ describe('TestUtilDebug', () => {
   });
 
   it('Should be able to console.error', (done) => {
-    process.env.NODE_ENV = '';
     const errfunc = sinon.spy();
     errfunc(util.error('Logging'));
     expect(errfunc.callCount).to.equal(1);
