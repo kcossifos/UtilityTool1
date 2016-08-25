@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-  "node": "6.4.0",
-  "npm": "3.10.7"
-},
+    "node": "6.4.0",
+    "npm": "3.10.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kcossifos/UtilityTool1.git"
@@ -26,18 +26,22 @@
     "dateformat": "^1.0.12",
     "express": "^4.14.0",
     "format": "^0.2.2",
+    "gulp": "^3.9.1",
+    "gulp-git": "^1.11.1",
     "istanbul": "^0.4.4",
     "mocha": "^3.0.2",
     "mocha-sinon": "^1.1.5",
     "rewire": "^2.5.2",
     "sinon": "^1.17.5",
-    "supertest": "^2.0.0"
+    "supertest": "^2.0.0",
+    "yargs": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^3.3.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.1.2"
+    "eslint-plugin-react": "^6.1.2",
+    "gulp": "^3.9.1"
   }
 }
