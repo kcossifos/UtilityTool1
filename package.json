@@ -1,6 +1,6 @@
 {
   "name": "kelTool2",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "kelTool2",
   "main": "lib/util.js",
   "scripts": {
