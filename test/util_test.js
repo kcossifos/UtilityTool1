@@ -25,3 +25,26 @@ describe('TestUtilDebug', () => {
     done();
   });
 });
+
+describe('Version bumping', () => {
+  const num = '1.4.6';
+  let actualNum;
+
+  it('Should be able to increment the major version number', (done) => {
+    actualNum = util.bumper(num, 'major');
+    expect(actualNum).to.be.equal('2.0.0');
+    done();
+  });
+
+  it('Should be able to increment the major version number', (done) => {
+    actualNum = util.bumper(num, 'minor');
+    expect(actualNum).to.be.equal('1.5.0');
+    done();
+  });
+
+  it('Should be able to increment the major version number', (done) => {
+    actualNum = util.bumper(num, 'patch');
+    expect(actualNum).to.be.equal('1.4.7');
+    done();
+  });
+});
